@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
+        "projectName": "MISA.WebFresher042023.Core",
+        "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj",
+        "projectName": "MISA.WebFresher042023.Infrastructure",
+        "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\MISA.WebFresher042023.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj": {
+                "projectPath": "F:\\MISA\\bt-git\\web202304\\bntien\\aspnetcore\\MISA.WebFresher042023.Demo\\MISA.WebFresher042023.Core\\MISA.WebFresher042023.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.138, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
